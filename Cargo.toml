@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["spotify_cli", "spotify_sort"]

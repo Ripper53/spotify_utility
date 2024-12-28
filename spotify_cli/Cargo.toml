@@ -1,0 +1,9 @@
+[package]
+name = "spotify_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+spotify_sort = { path = "../spotify_sort" }
+tokio = { version = "1.42.0", features = ["full"] }
